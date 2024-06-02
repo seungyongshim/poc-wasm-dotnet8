@@ -14,7 +14,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseBlazorFrameworkFiles();
 app.UseStaticFiles();
-app.UseRouting();
+app.UseRouting(); // 라우팅 순서 조정
 
 app.MapFallbackToFile("index.html");
 
